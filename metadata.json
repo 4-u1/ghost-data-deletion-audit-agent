@@ -1,0 +1,6 @@
+{
+  "name": "Ghost Data Still Exists — Deletion-Audit Agent",
+  "description": "Deterministic AI-powered deletion-audit agent for the HackerRank Orchestrate challenge: auditing 518 evaluation cases, multimodal evidence artifacts, policy rules, and ordered remediation plans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
