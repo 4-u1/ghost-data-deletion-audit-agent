@@ -3,7 +3,7 @@
 # Ghost Data Still Exists
 ### AI-Powered Deletion-Audit & Remediation Agent — HackerRank Orchestrate (October 2026)
 
-[![HackerRank](https://img.shields.io/badge/Contest-%40hackerrank%20Orchestrate%20Oct%202026-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://github.com/hackerrank)
+[![HackerRank](https://img.shields.io/badge/Contest-interviewstreet%2Fhackerrank--orchestrate--october26-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main)
 [![Author](https://img.shields.io/badge/Engineered%20By-Yazeed%20Hamad%20Alharthi-0A66C2?style=for-the-badge&logo=github&logoColor=white)](#author--attribution)
 [![Sample Validation](https://img.shields.io/badge/Sample%20Accuracy-32%2F32%20%28100%25%20Exact%20Match%29-10B981?style=for-the-badge)](#validation--evaluation-results)
 [![Evaluation Coverage](https://img.shields.io/badge/Evaluation%20Cases-518%20%2F%20518%20Verified-6366F1?style=for-the-badge)](#evaluation-dataset-breakdown-518-cases)
@@ -29,7 +29,7 @@
 ## Author & Attribution
 
 - **Lead Engineer & System Architect**: **Yazeed Hamad Alharthi**
-- **Challenge Organizer**: [@hackerrank](https://github.com/hackerrank) (**HackerRank Orchestrate — October 2026**)
+- **Challenge Repository**: [interviewstreet/hackerrank-orchestrate-october26](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main) (**HackerRank Orchestrate — October 2026**)
 - **Challenge Link**: [https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists](https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists)
 - **Core Specifications**:
   - **Product Requirements Document**: [`PRD.md`](./PRD.md) (also embedded in [Section 6](#6-embedded-product-requirements-document-prd) below)
@@ -41,7 +41,7 @@
 
 In distributed commerce systems, an automated privacy workflow often reports `COMPLETE` while customer Personal Identifiable Information (**"Ghost Data"**) lingers in read replicas, search indexes, CRM exports, support ticket attachments, analytics tables, or cold backups. Even worse, active synchronization pipelines and unblocked backup restore jobs can silently resurrect deleted records after primary deletion has occurred.
 
-Built by **Yazeed Hamad Alharthi** for the [@hackerrank](https://github.com/hackerrank) **Ghost Data Still Exists** challenge, this repository delivers:
+Built by **Yazeed Hamad Alharthi** for the [interviewstreet/hackerrank-orchestrate-october26](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main) **Ghost Data Still Exists** challenge, this repository delivers:
 
 1. **Deterministic Deletion-Audit Engine (`code/main.py`)**:
    - **Multilingual Intent Classification**: Distinguishes genuine deletion authorizations from non-deletion requests (data exports, address updates, marketing opt-outs, account access inquiries) across English, Spanish, French, German, Portuguese, and Arabic (`NOT_APPLICABLE` with `steps_json=[]`).
@@ -166,7 +166,7 @@ Open `http://localhost:3000` to explore all 518 evaluation cases, filter by mult
 ### 6.1 Product Vision & Scope
 - **Product**: Ghost Data Still Exists — Autonomous Deletion-Audit & Remediation Engine
 - **Lead Author**: **Yazeed Hamad Alharthi**
-- **Challenge Partner**: [@hackerrank](https://github.com/hackerrank) ([HackerRank Orchestrate October 2026](https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists))
+- **Challenge Partner / Official Repo**: [interviewstreet/hackerrank-orchestrate-october26](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main) ([HackerRank Orchestrate October 2026](https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists))
 - **Core Objective**: Provide provable, deterministic right-to-erasure auditing across polyglot persistence layers without trusting workflow status claims.
 
 ### 6.2 Allowed Operations & State Machine Matrix
@@ -193,6 +193,6 @@ Open `http://localhost:3000` to explore all 518 evaluation cases, filter by mult
 
 ## 7. Official Submission Link
 
-Submit `code.zip`, `output.csv`, and `log.txt` directly on [@hackerrank](https://github.com/hackerrank):
+Submit `code.zip`, `output.csv`, and `log.txt` directly on [HackerRank Orchestrate Challenge](https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists) (Repo: [interviewstreet/hackerrank-orchestrate-october26](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main)):
 
 https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists

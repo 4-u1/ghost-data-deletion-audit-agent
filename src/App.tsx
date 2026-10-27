@@ -301,12 +301,12 @@ export default function App() {
                   <span>OCTOBER 2026 CHALLENGE</span>
                   <span aria-hidden="true">·</span>
                   <a
-                    href="https://github.com/hackerrank"
+                    href="https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#F3F7F7] hover:text-[#00EA64] underline underline-offset-4"
                   >
-                    github.com/hackerrank
+                    interviewstreet/hackerrank-orchestrate-october26
                   </a>
                 </div>
 
@@ -417,14 +417,14 @@ export default function App() {
                 <p className="text-sm text-[#94A3B8] leading-relaxed">
                   Designed for the{" "}
                   <a
-                    href="https://github.com/hackerrank"
+                    href="https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white underline underline-offset-4 hover:text-[#00EA64]"
                   >
-                    @hackerrank
+                    @interviewstreet
                   </a>{" "}
-                  Orchestrate challenge to audit complex data deletion workflows
+                  HackerRank Orchestrate challenge to audit complex data deletion workflows
                   where reported statuses claim completion while personal data
                   persists across databases, PDFs, screenshots, and sync streams.
                 </p>
@@ -964,14 +964,14 @@ export default function App() {
                 <strong className="text-white">Yazeed Hamad Alharthi</strong>{" "}
                 for{" "}
                 <a
-                  href="https://github.com/hackerrank"
+                  href="https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#00EA64] hover:underline"
                 >
-                  @hackerrank
+                  interviewstreet/hackerrank-orchestrate-october26
                 </a>{" "}
-                Orchestrate (October 2026)
+                (HackerRank Orchestrate October 2026)
               </p>
             </div>
 

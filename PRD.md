@@ -3,7 +3,7 @@
 # Product Requirements Document (PRD)
 ## Ghost Data Still Exists — AI-Powered Deletion-Audit & Remediation Engine
 
-[![HackerRank](https://img.shields.io/badge/Challenge-%40hackerrank%20Orchestrate-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://github.com/hackerrank)
+[![HackerRank](https://img.shields.io/badge/Challenge-interviewstreet%2Fhackerrank--orchestrate--october26-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main)
 [![Author](https://img.shields.io/badge/Author-Yazeed%20Hamad%20Alharthi-0A66C2?style=for-the-badge&logo=github&logoColor=white)](#document-control--ownership)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready%20%28v1.0%29-10B981?style=for-the-badge)](#1-executive-summary)
 [![Accuracy](https://img.shields.io/badge/Sample%20Accuracy-32%2F32%20%28100%25%29-6366F1?style=for-the-badge)](#8-success-metrics--kpis)
@@ -18,7 +18,7 @@
 | :--- | :--- |
 | **Product Title** | Ghost Data Still Exists — Autonomous Deletion-Audit & Remediation Engine |
 | **Author / Lead Architect** | **Yazeed Hamad Alharthi** |
-| **Organization / Event** | [@hackerrank](https://github.com/hackerrank) — **HackerRank Orchestrate (October 2026)** |
+| **Organization / Repository** | [interviewstreet/hackerrank-orchestrate-october26](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main) — **HackerRank Orchestrate (October 2026)** |
 | **Official Challenge URL** | [https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists](https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists) |
 | **Document Version** | `v1.0.0` (Final Submission Release) |
 | **Last Updated** | October 27, 2026 |
@@ -30,7 +30,7 @@
 
 Modern commerce platforms operate across dozens of distributed data stores: primary transactional databases, regional read replicas, search indexes, data warehouses, CRM pipelines, object storage exports, support ticketing systems, and cold disaster-recovery backups. When a customer submits a **Right to Erasure (GDPR Art. 17 / CCPA / PDPL)** request, internal orchestration workflows frequently report `COMPLETE` even while residual personal identifiable information (**"Ghost Data"**) persists in downstream replicas, support PDFs, screenshots, or active synchronization pipelines that can silently repopulate deleted records.
 
-Designed and engineered by **Yazeed Hamad Alharthi** for the [@hackerrank](https://github.com/hackerrank) **Orchestrate (October 2026)** challenge, **Ghost Data Still Exists** is a deterministic, evidence-grounded deletion-audit engine and interactive compliance platform. Rather than trusting workflow status claims (`reported_status`), the system:
+Designed and engineered by **Yazeed Hamad Alharthi** for the [interviewstreet/hackerrank-orchestrate-october26](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main) **Orchestrate (October 2026)** challenge, **Ghost Data Still Exists** is a deterministic, evidence-grounded deletion-audit engine and interactive compliance platform. Rather than trusting workflow status claims (`reported_status`), the system:
 
 1. **Verifies Deletion Authorization** across multilingual customer requests (`EN`, `ES`, `FR`, `DE`, `PT`, `AR`).
 2. **Reconstructs Historical Identity Graphs** (`user_id`, current/historical emails, phones, names, and SHA-256 hashes).
@@ -72,7 +72,7 @@ Designed and engineered by **Yazeed Hamad Alharthi** for the [@hackerrank](https
    - *Need*: Verify whether a specific customer's deletion request (`case_id`) is genuinely complete at `audit_at` and obtain an auditable evidence trail.
 2. **Site Reliability / Data Platform Engineer**
    - *Need*: Execute a safe, ordered remediation runbook (`DISABLE_DATA_FLOW` → `BLOCK_RESTORE` → `DELETE_RECORD` / `REDACT_RECORD` / `ANONYMIZE_RECORD`) without triggering replication race conditions.
-3. **Automated Evaluation Grader ([@hackerrank](https://github.com/hackerrank))**
+3. **Automated Evaluation Grader ([interviewstreet/hackerrank-orchestrate-october26](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main))**
    - *Need*: Consume a spec-compliant `output.csv` containing all 518 predictions with exact schema conformance (`case_id,deletion_status,steps_json`).
 
 ---

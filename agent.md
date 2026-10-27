@@ -3,7 +3,7 @@
 # agent.md — Deletion-Audit Agent Specification & Governance Contract
 ### HackerRank Orchestrate (October 2026) — Ghost Data Still Exists
 
-[![HackerRank](https://img.shields.io/badge/Platform-%40hackerrank%20Orchestrate-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://github.com/hackerrank)
+[![HackerRank](https://img.shields.io/badge/Platform-interviewstreet%2Fhackerrank--orchestrate--october26-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main)
 [![Author](https://img.shields.io/badge/Lead%20Engineer-Yazeed%20Hamad%20Alharthi-0A66C2?style=for-the-badge&logo=github&logoColor=white)](#agent-identity--ownership)
 [![Contract](https://img.shields.io/badge/Contract-AGENTS.md%20Compliant-10B981?style=for-the-badge)](#1-agent-contract--mission)
 
@@ -17,7 +17,7 @@
 | :--- | :--- |
 | **Agent Name** | Ghost Data Still Exists — Deterministic Deletion-Audit Agent |
 | **Author & Principal Architect** | **Yazeed Hamad Alharthi** |
-| **Host Competition** | [@hackerrank](https://github.com/hackerrank) — **HackerRank Orchestrate (October 2026)** |
+| **Host Competition & Repo** | [interviewstreet/hackerrank-orchestrate-october26](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main) — **HackerRank Orchestrate (October 2026)** |
 | **Official Challenge URL** | [https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists](https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists) |
 | **Primary Entry Point** | `code/main.py` |
 | **Companion Specification** | [`AGENTS.md`](./AGENTS.md) · [`PRD.md`](./PRD.md) · [`README.md`](./README.md) |
@@ -26,7 +26,7 @@
 
 ## 1. Agent Contract & Mission
 
-This `agent.md` document defines both the operational architecture of the **Ghost Data Still Exists** deletion-audit agent engineered by **Yazeed Hamad Alharthi** and the full [@hackerrank](https://github.com/hackerrank) **AGENTS.md** governance specification.
+This `agent.md` document defines both the operational architecture of the **Ghost Data Still Exists** deletion-audit agent engineered by **Yazeed Hamad Alharthi** and the full [interviewstreet/hackerrank-orchestrate-october26](https://github.com/interviewstreet/hackerrank-orchestrate-october26/tree/main) **AGENTS.md** governance specification.
 
 For every request in `dataset/deletion_requests.csv` (`518 evaluation cases`) and `dataset/sample_deletion_requests.csv` (`32 public benchmark cases`), the agent executes a four-stage deterministic pipeline:
 
